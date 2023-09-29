@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encryptador</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo.png" alt="logo de alura" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" id="text-area" name="text-area" cols="30" rows="10" placeholder="Ingrese texto aquí"></textarea>
+            <div class="info-container">
+                <img src="imagenes/Vector.png" alt="Simbolo Advertencia" class="admiracion">
+                <h6 class="Informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+            <div class="mensaje-container">
+                <div class="paquete">
+                    <textarea class="mensaje" id="mensaje" name="mensaje" cols="20" rows="10" ></textarea>
+                    <div class="placeholder">Ningún mensaje fue <br> encontrado</div>
+                    <div class="subtexto">Ingresa el texto que desees encriptar o <br> desencriptar</div>
+                    <button class="copiar"  onclick="btncopiar()">Copiar</button>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <h1 class="presentacion">Elaborado por Diego Armando Rueda Noreña | Github P4TO91</h1>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

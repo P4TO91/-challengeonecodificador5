@@ -1,0 +1,191 @@
+* {
+   background: none;
+   font-family: Inter;
+   font-size: 32px;
+   font-weight: 400;
+   line-height: 150%;
+}
+
+body {
+   background-color: rgba(243, 245, 252, 1);
+   margin: 0; /* Elimina el margen predeterminado del cuerpo */
+   padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+.logo {
+   padding-top: 40px;
+   text-align: right;
+   margin-left: 40px;
+   width: 120px;
+   height: 48px;
+}
+
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh; /* Establece el alto al 100% de la ventana */
+}
+
+.text-area {
+   border: none;
+   color: #0A3871;
+   background: rgba(243, 245, 252, 1);
+   font-size: 32px;
+}
+
+::placeholder {
+   color: #0A3871;
+}
+
+.text-area:focus {
+   outline: none;
+}
+
+.mensaje-container {
+   position: relative;
+}
+
+.mensaje-container {
+   position: relative;
+   display: inline-block; /* Asegura que el div placeholder esté en la misma línea que el textarea */
+}
+
+.mensaje {
+   height: 944px;
+   width: 400px;
+   background: rgba(255, 255, 255, 1);
+   background-image: url("imagenes/Muñeco.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   border: none;
+   border-radius: 24px;
+   color: rgb(52, 58, 64, 1);
+   text-align: center;
+   vertical-align: bottom;
+   margin-left: 98px;
+   margin-bottom: 150px;
+   padding-left: 20px;
+   position: relative;
+}
+
+.paquete {
+   position: relative;
+   display: inline-block;
+
+}
+
+.placeholder {
+   position: absolute;
+   text-align: center;
+   bottom: 390px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+   left: 211px; /* Ajusta la posición horizontal según tus necesidades */
+   color: rgba(73, 80, 87, 1);
+   font-size: 24px;
+   pointer-events: none; /* Evita que el div placeholder sea interactivo */
+   font-weight: bold;
+}
+
+.copiar {
+   border: 1px solid #0A3871;
+   border-radius: 24px;
+   color: #0A3871;
+   cursor: pointer;
+   height: 67px;
+   margin-top: 0px; /* Ajusta el margen superior */
+   margin-bottom: 160px;
+   position: absolute;
+   bottom: 75px;
+   right: 1.3rem;
+   width: 336px;
+   display: none;
+   font-size: 16px;
+}
+
+.subtexto{
+   position: absolute;
+   text-align: center;
+   bottom: 345px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+   left: 200px; /* Ajusta la posición horizontal según tus necesidades */
+   color: rgba(73, 80, 87, 1);
+   font-size: 16px;
+   pointer-events: none; /* Evita que el div placeholder sea interactivo */
+}
+
+.mensaje:focus {
+   outline: none;
+}
+
+.botones {
+   display: flex;
+   margin-top: 18px;
+}
+
+.btn-encriptar {
+   background-color: rgba(10,56,113,1);
+   border-radius: 24px;
+   color: rgba(255, 255, 255,1);
+   cursor: pointer;
+   height: 67px;
+   width: 328px;
+   font-size: 16px;
+}
+
+.btn-desencriptar {
+   background: rgba(216,223,232,1);
+   border: 1px solid #0A3871;
+   border-radius: 24px;
+   color: #0A3871;
+   cursor: pointer;
+   height: 67px;
+   margin-left: 40px;
+   width: 328px;
+   font-size: 16px;
+}
+
+.mensaje-inferior {
+   display: flex;
+   color: rgb(52, 58, 64, 1);
+   position: relative;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-position: center;
+   border: none;
+   text-justify: distribute-all-lines;
+}
+
+.Informacion{
+   color: rgba(73,80,87,1);
+   font-size: 18px;
+   display: flex; /* Agrega flex para alinear elementos verticalmente */
+   align-items: center; /* Alinea elementos verticalmente en el centro */
+   margin-bottom: 0;
+}
+
+.info-container {
+  white-space: nowrap; /* Evita el salto de línea entre elementos */
+  vertical-align: middle;
+}
+
+.admiracion,
+.Informacion {
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente los elementos */
+  margin-top: 10px;
+}
+
+.presentacion{
+   font-size: 16px;
+   color: rgba(73, 80, 87, 1);
+   margin-top:-250px ;
+   margin-left: 961.5px;
+   font-weight: bold;
+}
+
+footer {
+   position:absolute;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   text-align: center;
+ }
